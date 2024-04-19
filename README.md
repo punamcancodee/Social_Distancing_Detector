@@ -14,14 +14,14 @@ This Python script detects and alerts for potential violations of social distanc
 
 ##  Installation
 1.  Clone the repository 
-```python
+```bash
 git clone https://github.com/punamcancodee/Social_Distancing_Detector/blob/main/Social_Distance.py
 
 cd Social_Distancing_Detector
 ```
 
 2. Install the required libraries:
-```python
+```bash
 pip install opencv-python numpy
 ```
 
@@ -32,7 +32,7 @@ pip install opencv-python numpy
 1. Download the YOLOv4 weights (yolov4.weights), configuration file (yolov4.cfg), and COCO names file (coco.names) from the official YOLO website.
 2. Place the downloaded files in the same directory as the Python script.
 3. Run the Python script:
-```python
+```bash
 python social_distance_detection.py
 ```
 4. The script will start processing the specified video (pedestrian.mp4 by default) and display the output with bounding boxes around detected people and danger alerts if social distancing is violated.
